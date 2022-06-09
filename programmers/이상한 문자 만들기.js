@@ -4,7 +4,7 @@ const a = "try hello world";
 // console.log(a.toLowerCase());
  
 function solution(s) {
-    const alpa = a.split("");
+    const alpa = s.split("");
     let answer = [];
 
     for(let i=0; i < alpa.length; i++){
